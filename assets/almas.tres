@@ -1,0 +1,67 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://bif317ncwrmsa"]
+
+[ext_resource type="Texture2D" uid="uid://6lels2i4if7j" path="res://assets/tile/diamond-sh.png" id="1_qck78"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwx2k"]
+atlas = ExtResource("1_qck78")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_utih2"]
+atlas = ExtResource("1_qck78")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_axxfn"]
+atlas = ExtResource("1_qck78")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fq06j"]
+atlas = ExtResource("1_qck78")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lwagy"]
+atlas = ExtResource("1_qck78")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7f0tg"]
+atlas = ExtResource("1_qck78")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mxkr"]
+atlas = ExtResource("1_qck78")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whqh3"]
+atlas = ExtResource("1_qck78")
+region = Rect2(224, 0, 32, 32)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwx2k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_utih2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_axxfn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fq06j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lwagy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7f0tg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mxkr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whqh3")
+}],
+"loop": true,
+"name": &"diamond",
+"speed": 7.0
+}]
